@@ -1,10 +1,13 @@
-package com.capgemini.employee.model;
+package com.capgemini.employee.test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
+
+import com.capgemini.employee.model.Manager;
+import com.capgemini.employee.model.MarketingExecutive;
 
 class MarketingExecutiveTest {
 

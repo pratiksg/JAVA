@@ -55,6 +55,13 @@ public class BankAccount {
 		return accountBalance;
 		
 	}
+	public void displayBankAccountDetails() {
+		System.out.println("BankAccountId:"+accountId);
+		System.out.println("BankAccountHolderName:"+accountHolderName);
+		System.out.println("BankAccountType:"+accountType);
+		System.out.println("BankAccountbalance:"+accountBalance);
+		
+	}
 	
 }
 
